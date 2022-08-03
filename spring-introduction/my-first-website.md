@@ -87,6 +87,12 @@ _In order for the Spring Boot framework to understand what we are trying to do w
 
 This will tell the Spring Boot Framework to look for a parameter in the browsers url called "name".
 
-If you type in http://localhost:8080/
+If you type in `http://localhost:8080/message` and attach "`?name=Claus`" , Claus will be passed in through the `name` parameter in the message method and get returned via the return statement in the method.
+
+Your browser will nov show this:
+
+![](<../.gitbook/assets/Screenshot 2022-08-03 at 22.59.29.png>)
+
+
 
 _© clbo@kea.dk_
