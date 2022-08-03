@@ -41,22 +41,22 @@ In the demo folder create a class and call it HomeController.java.\
 
 #### Create an index method in the class
 
-Create a public method called index with a return type of String, and return the string "index".
+Create a public method called index with a return type of String, and return the string "Hello World".
 
-![](<../.gitbook/assets/Screen Shot 2017-11-17 at 23.19.40.png>)
+![](<../.gitbook/assets/Screenshot 2022-08-03 at 21.12.59.png>)
 
 Add _**@RestController**_ above the class definition and _**@GetMapping("/")**_ above the method definition. As a return value you could write "Hello World" or something else of your own choice.&#x20;
 
-![](<../.gitbook/assets/Screen Shot 2017-11-17 at 23.30.50.png>)
+![](<../.gitbook/assets/Screenshot 2022-08-03 at 21.08.28.png>)
 
-#### Run the application
+Run the application
 
 push the green start button in the upper right corner.
 
-![](<../.gitbook/assets/Screen Shot 2017-11-17 at 23.49.09.png>)
+![](<../.gitbook/assets/Screen Shot 2017-11-17 at 23.49.09 (1).png>)
 
 Open your browser and type http://localhost:8080
 
-![](<../.gitbook/assets/Screen Shot 2017-11-17 at 23.53.41.png>)
+![](<../.gitbook/assets/Screenshot 2022-08-03 at 21.07.41.png>)
 
 _© clbo@kea.dk_
