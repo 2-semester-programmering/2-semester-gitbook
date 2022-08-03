@@ -45,7 +45,7 @@ Create a public method called index with a return type of String, and return the
 
 ![](<../.gitbook/assets/Screen Shot 2017-11-17 at 23.19.40.png>)
 
-Add _**@Controller**_ above the class definition and _**@GetMapping("/")**_ above the method definition.
+Add _**@RestController**_ above the class definition and _**@GetMapping("/")**_ above the method definition.
 
 ![](<../.gitbook/assets/Screen Shot 2017-11-17 at 23.30.50.png>)
 
