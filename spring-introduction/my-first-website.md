@@ -67,6 +67,8 @@ _Create a new method in your HomeController and call it message()_
 
 _In line 14 annotate your method with `@GetMapping("message")`_
 
-_``_
+![](<../.gitbook/assets/Screenshot 2022-08-03 at 22.06.56.png>)
+
+_Now you have created a new endpoint and if you run your application, open your browser, and type in http://localhost:8080/message you will execute your method and it will return "Hello!" to you browsers screen._&#x20;
 
 _© clbo@kea.dk_
