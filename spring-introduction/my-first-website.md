@@ -89,7 +89,9 @@ This will tell the Spring Boot Framework to look for a parameter in the browsers
 
 If you type in `http://localhost:8080/message` and attach "`?name=Claus`" , Claus will be passed in through the `name` parameter in the message method and get returned via the return statement in the method.
 
-Your browser will nov show this:
+**`http://localhost:8080/message?name=Claus`**
+
+Your browser will now show this:
 
 ![](<../.gitbook/assets/Screenshot 2022-08-03 at 22.59.29.png>)
 
