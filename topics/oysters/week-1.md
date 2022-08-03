@@ -1,4 +1,4 @@
-# 🐙 Oyster of the week 1
+# 1. Challenge
 
 **Deadline: 13/2-2022**
 
@@ -8,6 +8,5 @@ Write a function that rotates a list by k elements. For example, `[1, 2, 3, 4, 5
 
 Send answer to NIFR@kea.dk include
 
-- Challenge number
-
-- Github link
+* Challenge number
+* Github link

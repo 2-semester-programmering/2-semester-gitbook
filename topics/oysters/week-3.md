@@ -1,4 +1,4 @@
-# 🐙 Oyster of the week 1
+# 3. Challenge
 
 **Deadline: 20/3-2022**
 
@@ -10,6 +10,5 @@ For example, given a file with the content “Hello world”, three read7() retu
 
 Send answer to NIFR@kea.dk include
 
-- Challenge number
-
-- Github link
+* Challenge number
+* Github link
