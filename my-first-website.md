@@ -37,17 +37,17 @@ In the demo folder create a class and call it HomeController.java.\
 * Name: HomeController
 * Kind: Class
 
-![](https://github.com/clbokea/spring\_getting\_started/blob/master/img/Screen%20Shot%202017-11-17%20at%2023.12.13.png)
+![](<.gitbook/assets/Screen Shot 2017-11-17 at 23.12.13.png>)
 
 #### Create an index method in the class
 
 Create a public method called index with a return type of String, and return the string "index".
 
-![](https://github.com/clbokea/spring\_getting\_started/blob/master/img/Screen%20Shot%202017-11-17%20at%2023.19.40.png)
+![](<.gitbook/assets/Screen Shot 2017-11-17 at 23.19.40.png>)
 
 Add _**@Controller**_ above the class definition and _**@GetMapping("/")**_ above the method definition.
 
-![](https://github.com/clbokea/spring\_getting\_started/blob/master/img/Screen%20Shot%202017-11-17%20at%2023.30.50.png)
+![](<.gitbook/assets/Screen Shot 2017-11-17 at 23.30.50.png>)
 
 ### Create an index.html file
 
@@ -58,7 +58,7 @@ Add _**@Controller**_ above the class definition and _**@GetMapping("/")**_ abov
 * Delete the `<meta charset="UTF-8">` tag
 * Add `xmlns:th="http://www.thymeleaf.org"`  to the `<html lang="en">` tag
 
-![](https://github.com/StudentsAdministration/03\_my\_first\_website/blob/master/img/newHtml.png)
+![](.gitbook/assets/newHtml.png)
 
 Make your code look like the image above. (do your best :))
 
@@ -66,8 +66,10 @@ Make your code look like the image above. (do your best :))
 
 push the green start button in the upper right corner.
 
-![](https://github.com/clbokea/spring\_getting\_started/blob/master/img/Screen%20Shot%202017-11-17%20at%2023.49.09.png)
+![](<.gitbook/assets/Screen Shot 2017-11-17 at 23.49.09.png>)
 
 Open your browser and type http://localhost:8080
 
-![](https://github.com/clbokea/spring\_getting\_started/blob/master/img/Screen%20Shot%202017-11-17%20at%2023.53.41.png)_© clbo@kea.dk_
+![](<.gitbook/assets/Screen Shot 2017-11-17 at 23.53.41.png>)
+
+_© clbo@kea.dk_
