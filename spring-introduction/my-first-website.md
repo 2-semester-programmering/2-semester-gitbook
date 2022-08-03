@@ -45,22 +45,9 @@ Create a public method called index with a return type of String, and return the
 
 ![](<../.gitbook/assets/Screen Shot 2017-11-17 at 23.19.40.png>)
 
-Add _**@RestController**_ above the class definition and _**@GetMapping("/")**_ above the method definition.
+Add _**@RestController**_ above the class definition and _**@GetMapping("/")**_ above the method definition. As a return value you could write "Hello World" or something else of your own choice.&#x20;
 
 ![](<../.gitbook/assets/Screen Shot 2017-11-17 at 23.30.50.png>)
-
-### Create an index.html file
-
-* right click _**resource -> template**_ folder
-* Choose: _**New -> html file**_
-* Name: index
-* Kind: Html 5 file
-* Delete the `<meta charset="UTF-8">` tag
-* Add `xmlns:th="http://www.thymeleaf.org"`  to the `<html lang="en">` tag
-
-![](../.gitbook/assets/newHtml.png)
-
-Make your code look like the image above. (do your best :))
 
 #### Run the application
 
