@@ -10,7 +10,7 @@ _Remember that this is a step by step instruction. It does not explain all the c
 
 You should now have a folder and file structure that looks something like this:
 
-
+![](<.gitbook/assets/Screen Shot 2017-11-17 at 10.58.46.png>)
 
 If you open your _**src**_ folder you will see a _**main**_ and a _**test**_ folder.\
 Delete the:
@@ -21,11 +21,11 @@ Delete the:
 
 (you could leave them in the project, but since we are not going to use them we delete them for a better overview)
 
-![](https://github.com/clbokea/spring\_getting\_started/blob/master/img/Screen%20Shot%202017-11-17%20at%2011.06.38.png)
+![](<.gitbook/assets/Screen Shot 2017-11-17 at 11.06.38.png>)
 
 Now you have a project structure that looks like this:
 
-![](https://github.com/clbokea/spring\_getting\_started/blob/master/img/Screen%20Shot%202017-11-17%20at%2011.13.55.png)
+![](<.gitbook/assets/Screen Shot 2017-11-17 at 11.13.55.png>)
 
 ### Create a normal java class file
 
