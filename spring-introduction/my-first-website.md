@@ -71,4 +71,22 @@ _In line 14 annotate your method with `@GetMapping("message")`_
 
 _Now you have created a new endpoint and if you run your application, open your browser, and type in http://localhost:8080/message you will execute your method and it will return "Hello!" to you browsers screen._&#x20;
 
+#### _Pass in a value_&#x20;
+
+_If you want to pass in a value into your method, this should be done like you are used to as a parameter of this method: `message(value goes in here).`_
+
+In this case we want a String to be passed in and the parameter we will call "name".
+
+![](<../.gitbook/assets/Screenshot 2022-08-03 at 22.18.37.png>)
+
+_The return value will now be a concatenation of "Hello" and the passed in name._
+
+_In order for the Spring Boot framework to understand what we are trying to do we will write `@RequestParam` in front of `String name.`_&#x20;
+
+![](<../.gitbook/assets/Screenshot 2022-08-03 at 22.24.02.png>)
+
+This will tell the Spring Boot Framework to look for a parameter in the browsers url called "name".
+
+If you type in http://localhost:8080/
+
 _© clbo@kea.dk_
