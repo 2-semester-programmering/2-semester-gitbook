@@ -59,4 +59,14 @@ Open your browser and type http://localhost:8080
 
 ![](<../.gitbook/assets/Screenshot 2022-08-03 at 21.07.41.png>)
 
+### _Passing a value from the url into a method and returning it back to the browser_
+
+_Create a new method in your HomeController and call it message()_
+
+![](<../.gitbook/assets/Screenshot 2022-08-03 at 22.03.45.png>)
+
+_In line 14 annotate your method with `@GetMapping("message")`_
+
+_``_
+
 _© clbo@kea.dk_
