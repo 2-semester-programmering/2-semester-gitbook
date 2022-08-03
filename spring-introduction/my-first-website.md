@@ -1,5 +1,5 @@
 ---
-description: Exercise in using Spring Boot MVC
+description: This is what we have covered in class this first session with Spring Boot.
 ---
 
 # My First Website
