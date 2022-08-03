@@ -4,9 +4,9 @@ description: Exercise in using Spring Boot MVC
 
 # My First Website
 
-After creating an empty new Spring project in IntelliJ through the _Spring Initializer Template_: [#3 Hello Spring](https://github.com/StudentsAdministration/03\_hello\_spring), you should now create your first _Hello World Website_.
+After creating an empty new Spring project in IntelliJ through the _Spring Initializer Template,_ you should now create your first _Hello World Website_.
 
-_Remember that this is a step by step instruction. It does not explain all the concepts in details. This explanaition you will get from your teacher in class._
+_Remember that this is a step by step instruction. It does not explain all the concepts in details. This explanation you will get from your teacher in class._
 
 You should now have a folder and file structure that looks something like this:
 
