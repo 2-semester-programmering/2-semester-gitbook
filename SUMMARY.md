@@ -19,7 +19,4 @@
   * [2. Challenge](topics/oysters/week-2.md)
   * [3. Challenge](topics/oysters/week-3.md)
 * [FAQ](faq.md)
-
-## Group 1
-
-* [Spring](group-1/spring.md)
+* [My First Website](my-first-website.md)
