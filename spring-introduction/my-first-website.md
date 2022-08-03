@@ -10,7 +10,7 @@ _Remember that this is a step by step instruction. It does not explain all the c
 
 You should now have a folder and file structure that looks something like this:
 
-![](<.gitbook/assets/Screen Shot 2017-11-17 at 10.58.46.png>)
+![](<../.gitbook/assets/Screen Shot 2017-11-17 at 10.58.46.png>)
 
 If you open your _**src**_ folder you will see a _**main**_ and a _**test**_ folder.\
 Delete the:
@@ -21,11 +21,11 @@ Delete the:
 
 (you could leave them in the project, but since we are not going to use them we delete them for a better overview)
 
-![](<.gitbook/assets/Screen Shot 2017-11-17 at 11.06.38.png>)
+![](<../.gitbook/assets/Screen Shot 2017-11-17 at 11.06.38.png>)
 
 Now you have a project structure that looks like this:
 
-![](<.gitbook/assets/Screen Shot 2017-11-17 at 11.13.55.png>)
+![](<../.gitbook/assets/Screen Shot 2017-11-17 at 11.13.55.png>)
 
 ### Create a normal java class file
 
@@ -37,17 +37,17 @@ In the demo folder create a class and call it HomeController.java.\
 * Name: HomeController
 * Kind: Class
 
-![](<.gitbook/assets/Screen Shot 2017-11-17 at 23.12.13.png>)
+![](<../.gitbook/assets/Screen Shot 2017-11-17 at 23.12.13.png>)
 
 #### Create an index method in the class
 
 Create a public method called index with a return type of String, and return the string "index".
 
-![](<.gitbook/assets/Screen Shot 2017-11-17 at 23.19.40.png>)
+![](<../.gitbook/assets/Screen Shot 2017-11-17 at 23.19.40.png>)
 
 Add _**@Controller**_ above the class definition and _**@GetMapping("/")**_ above the method definition.
 
-![](<.gitbook/assets/Screen Shot 2017-11-17 at 23.30.50.png>)
+![](<../.gitbook/assets/Screen Shot 2017-11-17 at 23.30.50.png>)
 
 ### Create an index.html file
 
@@ -58,7 +58,7 @@ Add _**@Controller**_ above the class definition and _**@GetMapping("/")**_ abov
 * Delete the `<meta charset="UTF-8">` tag
 * Add `xmlns:th="http://www.thymeleaf.org"`  to the `<html lang="en">` tag
 
-![](.gitbook/assets/newHtml.png)
+![](../.gitbook/assets/newHtml.png)
 
 Make your code look like the image above. (do your best :))
 
@@ -66,10 +66,10 @@ Make your code look like the image above. (do your best :))
 
 push the green start button in the upper right corner.
 
-![](<.gitbook/assets/Screen Shot 2017-11-17 at 23.49.09.png>)
+![](<../.gitbook/assets/Screen Shot 2017-11-17 at 23.49.09.png>)
 
 Open your browser and type http://localhost:8080
 
-![](<.gitbook/assets/Screen Shot 2017-11-17 at 23.53.41.png>)
+![](<../.gitbook/assets/Screen Shot 2017-11-17 at 23.53.41.png>)
 
 _© clbo@kea.dk_
