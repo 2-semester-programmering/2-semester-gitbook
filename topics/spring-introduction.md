@@ -1,6 +1,6 @@
 # Introduction to Spring
 
-[https://github.com/nicklasdean/HelloSpring](https://github.com/nicklasdean/HelloSpring)
+[Kode fra undervisningen](https://github.com/2-semester-programmering)
 
 ![New project from wizard](spring-introduction.assets/image-20210923092334208.png)
 

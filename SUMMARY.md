@@ -1,6 +1,6 @@
 # Table of contents
 
-* [2. Semesters Kompendie Programmering](README.md)
+* [Kompendie](README.md)
 * [Introduction to Spring](topics/spring-introduction.md)
 * [Spring 2: Movie workshop](topics/spring-introduction-2.md)
 * [HTML & CSS](topics/html.md)
