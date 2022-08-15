@@ -4,6 +4,8 @@ description: (nifr@kea.dk February 2022, ed. clbo@kea.dk August 2022)
 
 # Ex: Movie Facts workshop
 
+Solution (comes in a few days): [https://github.com/2-semester-programmering](https://github.com/2-semester-programmering)
+
 ### Introduction
 
 Today we are going to create an application that provides information about movies to the user. This is done by modelling movie data to java objects, sort & order a collection of them. You will be working in groups & handing in your repository Fronter.
@@ -30,16 +32,18 @@ This end-point calls a service, that finds a single random movie from the listan
 
 ### 3.4 /getTenSortByPopularity
 
-This end-point calls a service that fetches 10 random movies, maps each result to a Movie model class, adds to a Movie Arraylist and prints the result to the browser - sorted in ascending order by popularity (Hint: Remember the comparable interface).
+This end-point calls a service that fetches 10 random movies, maps each result to a Movie model class, adds to a Movie Arraylist and prints the result to the browser - sorted in ascending order by popularity&#x20;
+
+(Hint: Remember the comparable interface).
 
 ### 3.5 /howManyWonAnAward
 
-This end-point prints how many of the movies of the data-set that won anaward.
+This end-point prints how many of the movies of the data-set that won an award.
 
 ### 3.6 (Advanced) `/filter?char=x&amount=n`
 
-This end points calls a service that prints all movies, but only if they contain x charactern amount of times
+This end-point calls a service that prints all movies, but only if they contain x character, n amount of times
 
 ### 3.7 (Advanced) `/longest?g1=x&g2=y`
 
-This end-point calls a service that compares two genres and finds what genre, on average, has the longest movies.
+This end-point calls a service that compares two **genres** and finds what genre, on average, has the longest movies.
