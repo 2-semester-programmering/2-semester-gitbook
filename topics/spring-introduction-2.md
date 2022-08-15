@@ -1,6 +1,6 @@
 # Spring 2: Movie workshop
 
-Inspiration or Fork from: [https://github.com/nicklasdean/movie-workshop](https://github.com/nicklasdean/movie-workshop)
+Inspiration or Fork from: [https://github.com/2-semester-programmering/movie-workshop](https://github.com/2-semester-programmering/movie-workshop)
 
 When working with Spring, a usual structure/architecture of an application can look like this:
 
