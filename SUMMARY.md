@@ -3,6 +3,7 @@
 * [Kompendie](README.md)
 * [Spring 1: Introduction to Spring](spring-introduction/README.md)
   * [My First Website](spring-introduction/my-first-website.md)
+  * [Ex: Spring introduction](spring-introduction/ex-spring-introduction.md)
 * [Spring 2: Movie workshop](topics/spring-introduction-2.md)
   * [Ex: Movie Facts workshop](spring-introduction-2/ex-movie-facts-workshop.md)
 * [HTML & CSS](topics/html.md)
