@@ -21,7 +21,7 @@ This end-point welcomes the user and prints out a short description of your appl
 
 ### 3.2 /getFirst
 
-(Show in class)\
+(Shown in class)\
 This end-points calls a service that finds the first movie fromthe list and displays the title.
 
 ### 3.3 /getRandom
