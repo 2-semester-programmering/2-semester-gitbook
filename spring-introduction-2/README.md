@@ -4,7 +4,7 @@ Inspiration or Fork from: [https://github.com/2-semester-programmering/movie-wor
 
 When working with Spring, a usual structure/architecture of an application can look like this:
 
-![image-20210924104120018](spring-introduction-2.assets/image-20210924104120018.png)
+![image-20210924104120018](../topics/spring-introduction-2.assets/image-20210924104120018.png)
 
 ## Controllers
 
