@@ -16,6 +16,8 @@ Boilerplate:
 
 ## Exercises
 
+
+
 ### 1. View all employees
 
 The customer want a feature, such that they can see all employees in a table, the same way that they can currently view all departments
@@ -58,7 +60,11 @@ A new repository method for querying an insert statement with data from POST for
 
 ## Advanced: Building a Pokedex
 
-The data can be found here https://github.com/nicklasdean/dat20c-temp/blob/master/assets/pokedex.sql
+The data can be found here:
+
+https://github.com/dat22v1/blob/master/assets/pokedex.sql
+
+
 
 **Reflect before engineering:**
 
