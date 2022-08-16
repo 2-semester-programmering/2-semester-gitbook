@@ -4,7 +4,7 @@ description: (nifr@kea.dk February 2022, ed. clbo@kea.dk August 2022)
 
 # Ex: Movie Facts workshop
 
-Solution (comes in a few days): [https://github.com/2-semester-programmering](https://github.com/2-semester-programmering)
+Solution: [https://github.com/2-semester-programmering/Ex\_movieWorkshop](https://github.com/2-semester-programmering/Ex\_movieWorkshop)
 
 ### Introduction
 
