@@ -62,7 +62,7 @@ A new repository method for querying an insert statement with data from POST for
 
 The data can be found here:
 
-https://github.com/dat22v1/blob/master/assets/pokedex.sql
+https://github.com/2-semester-programmering/blob/master/assets/pokedex.sql
 
 
 
