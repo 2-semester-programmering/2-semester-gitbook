@@ -16,3 +16,4 @@
 * [Unit tests](topics/Unit-test.md)
 * [Sessions](topics/sessions.md)
 * [Exercise Solutions](https://github.com/2-semester-programmering?q=solution\&type=all\&language=\&sort=)
+* [JavaIntroSlides slides](javaintroslides-slides.md)
