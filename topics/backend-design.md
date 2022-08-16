@@ -2,7 +2,9 @@
 
 Boilerplate:
 
-[https://github.com/2-semester-programmering/spring-jdbc](https://github.com/2-semester-programmering/spring-jdbc)
+{% embed url="https://github.com/2-semester-programmering/spring-jdbc" %}
+
+**Data:** [databaseemployees-departments.md](../exercises/databaseemployees-departments.md "mention")****
 
 ## **Learning objectives**
 
