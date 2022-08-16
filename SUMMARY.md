@@ -21,5 +21,4 @@
   * [1. Challenge](topics/oysters/week-1.md)
   * [2. Challenge](topics/oysters/week-2.md)
   * [3. Challenge](topics/oysters/week-3.md)
-* [FAQ](faq.md)
 * [Exercise Solutions](https://github.com/2-semester-programmering?q=solution\&type=all\&language=\&sort=)
