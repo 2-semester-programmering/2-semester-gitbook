@@ -1,12 +1,12 @@
 # Thymeleaf
 
-**Example Github repository:** https://github.com/nicklasdean/Tweater
+**Example Github repository:** [https://github.com/2-semester-programmering/Tweater](https://github.com/2-semester-programmering/Tweater)
 
 ### Overview
 
 Thymeleaf is a template engine. Thymeleaf creates dynamic **templates** with dynamic **content**.
 
-Consider the following two views from Amazon: 
+Consider the following two views from Amazon:
 
 ![image-20211020132953555](Untitled.assets/image-20211020132953555.png)
 
@@ -14,13 +14,13 @@ Consider the following two views from Amazon:
 
 As we can tell - most of the content on the HTML page are the same - but we are viewing different book **entities** on the same "template" page. If Amazon had to write a new HTML page every time a new book was available they would have to write and maintain more than 12.000.000 HTML pages.
 
-##### Enter templates
+**Enter templates**
 
-On a template, we can outline the basic "skeleton" for a page, and dynamically fill out the blanks using thymeleaf Templates and  data from the server.
+On a template, we can outline the basic "skeleton" for a page, and dynamically fill out the blanks using thymeleaf Templates and data from the server.
 
-##### Basic syntax
+**Basic syntax**
 
-###### Consider the following example:
+**Consider the following example:**
 
 ```html
 <!DOCTYPE html>
@@ -40,11 +40,11 @@ On a template, we can outline the basic "skeleton" for a page, and dynamically f
 </html>
 ```
 
-###### Interpreted in the browser as: 
+**Interpreted in the browser as:**
 
 ![image-20211020134057288](Untitled.assets/image-20211020134057288.png)
 
-##### A controller that routes to the static page 
+**A controller that routes to the static page**
 
 ```java
 @GetMapping("/user")
@@ -76,13 +76,13 @@ To achieve this - we need to import a class from Spring called Model and inject 
 
 ![image-20211020135232831](Thymeleaf.assets/image-20211020135232831.png)
 
-##### Which will render the same view
+**Which will render the same view**
 
 ![image-20211020134057288](Thymeleaf.assets/image-20211020134057288.png)
 
-**But! ** the changes are now - that we have added data from the Java-backend and can dynamically change content from the applicaiton. 
+\*\*But! \*\* the changes are now - that we have added data from the Java-backend and can dynamically change content from the applicaiton.
 
-#### Adding an object to the template 
+#### Adding an object to the template
 
 Consider the following model:
 
@@ -174,7 +174,7 @@ public String user(Model model){
 }
 ```
 
-Displayed in the HTML like this: 
+Displayed in the HTML like this:
 
 `<li th:text="${name}"></li>`
 
@@ -192,27 +192,26 @@ https://www.baeldung.com/spring-thymeleaf-fragments
 
 ## Exercise 1
 
-**In the FreeMoneyNoScamApplication:** 
+**In the FreeMoneyNoScamApplication:**
 
-- Write a class EmailRepository
-  - EmailRepository has a method: fetchSingleEmail
-  - The method returns a String that contains an email
-- Write a controller EmailController
-  - The Controller returns an HTML page
-  - The Controller adds an e-mail from the "fetchSingleEmail" method
-- Write an HTML template that displays the email using Thymeleaf
+* Write a class EmailRepository
+  * EmailRepository has a method: fetchSingleEmail
+  * The method returns a String that contains an email
+* Write a controller EmailController
+  * The Controller returns an HTML page
+  * The Controller adds an e-mail from the "fetchSingleEmail" method
+* Write an HTML template that displays the email using Thymeleaf
 
 ### Refactor the code
 
-- Add a method to EmailRepository
-  - fetchAllEmails
-  - The method returns a list of 4 e-mails
-- Refactor the template such that all e-mails are displayed
+* Add a method to EmailRepository
+  * fetchAllEmails
+  * The method returns a list of 4 e-mails
+* Refactor the template such that all e-mails are displayed
 
 ## Advanced (Optional)
 
 Write an application that:
 
-- Fetches news from an XML stream from a mainstream news-outlet. (This could be BT, Ekstra Bladet, Politiken etc.)
-
-- Displays the news from a mainstream news-outlet.
+* Fetches news from an XML stream from a mainstream news-outlet. (This could be BT, Ekstra Bladet, Politiken etc.)
+* Displays the news from a mainstream news-outlet.
