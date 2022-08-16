@@ -8,7 +8,7 @@ Solution: [https://github.com/2-semester-programmering/Ex\_movieWorkshop](https:
 
 ### Introduction
 
-Today we are going to create an application that provides information about movies to the user. This is done by modelling movie data to java objects, sort & order a collection of them. You will be working in groups & hand in a link to your repository [Fronter](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1030179).
+Today we are going to create an application that provides information about movies to the user. This is done by modelling movie data to java objects, sort & order a collection of them. You will be working in groups & handing in your repository Fronter.
 
 **We will be working with the dataset:** [**movies.csv**](https://github.com/2-semester-programmering/movie-workshop/blob/master/resources/imdb-data.csv) **located on Fronter.**
 
