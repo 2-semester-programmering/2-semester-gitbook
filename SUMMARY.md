@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Kompendie](README.md)
+* [Abstraction](abstraction.md)
 * [Spring 1: Introduction to Spring](spring-introduction/README.md)
   * [My First Website](spring-introduction/my-first-website.md)
   * [Ex: Spring introduction](spring-introduction/ex-spring-introduction.md)
@@ -16,4 +17,3 @@
 * [Unit tests](topics/Unit-test.md)
 * [Sessions](topics/sessions.md)
 * [Exercise Solutions](https://github.com/2-semester-programmering?q=solution\&type=all\&language=\&sort=)
-* [Abstraction](abstraction.md)
