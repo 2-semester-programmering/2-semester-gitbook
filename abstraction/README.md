@@ -15,6 +15,9 @@ There are two ways to achieve abstraction in java
 1. Abstract class (0 to 100%)
 2. Interface (100%)
 
-[_<mark style="background-color:yellow;">https://www.javatpoint.com/abstract-class-in-java</mark>_](https://www.javatpoint.com/abstract-class-in-java)
+Another example is the break pedal of a Car. If an animal jumps in front of your car you hit the break pedal, and you do not have to think about how the computer in the car interpret your push to the pedal and after that activates the breakpads on the wheels.&#x20;
 
-_<mark style="background-color:yellow;"></mark>_
+The pedal is an abstraction, it hides the technical details and gives us a simple an easy to use interface to the cars breaking system.&#x20;
+
+
+
