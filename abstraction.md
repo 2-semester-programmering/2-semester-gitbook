@@ -1,7 +1,5 @@
 # Abstraction
 
-
-
 ### Abstraction in Java
 
 **Abstraction** is a process of hiding the implementation details and showing only functionality to the user.
@@ -17,6 +15,6 @@ There are two ways to achieve abstraction in java
 1. Abstract class (0 to 100%)
 2. Interface (100%)
 
-_<mark style="background-color:yellow;">\<div style="text-align:right"></mark>_[_<mark style="background-color:yellow;">https://www.javatpoint.com/abstract-class-in-java</mark>_](https://www.javatpoint.com/abstract-class-in-java)_<mark style="background-color:yellow;">\</div></mark>_
+[_<mark style="background-color:yellow;">https://www.javatpoint.com/abstract-class-in-java</mark>_](https://www.javatpoint.com/abstract-class-in-java)
 
 _<mark style="background-color:yellow;"></mark>_
