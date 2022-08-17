@@ -8,7 +8,7 @@ Solution: [https://github.com/2-semester-programmering/Ex\_movieWorkshop](https:
 
 ### Introduction
 
-Today we are going to create an application that provides information about movies to the user. This is done by modelling movie data to java objects, sort & order a collection of them. You will be working in groups & handing in your repository Fronter.
+Today we are going to create an application that provides information about movies to the user. This is done by modelling movie data to java objects, sort & order a collection of them. You will be working in groups & hand in a link to your repository [Fronter](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1030179).
 
 **We will be working with the dataset:** [**movies.csv**](https://github.com/2-semester-programmering/movie-workshop/blob/master/resources/imdb-data.csv) **located on Fronter.**
 
@@ -34,7 +34,7 @@ This end-point calls a service, that finds a single random movie from the listan
 
 This end-point calls a service that fetches 10 random movies, maps each result to a Movie model class, adds to a Movie Arraylist and prints the result to the browser - sorted in ascending order by popularity&#x20;
 
-(Hint: Remember the comparable interface).
+(Hint: Remember the comparable interface ([1st semester stuff](https://kea-fronter.itslearning.com/Folder/processfolder.aspx?FolderID=962814))).
 
 ### 3.5 /howManyWonAnAward
 
