@@ -4,11 +4,7 @@ description: nifr@kea.dk February 202, ed. clbo@kea.dk August 2022
 
 # Ex: Spring introduction
 
-Solution (comes in a few days):&#x20;
-
-{% embed url="https://github.com/2-semester-programmering" %}
-Solution
-{% endembed %}
+Solution (comes in a few days): [https://github.com/2-semester-programmering](https://github.com/2-semester-programmering)
 
 ### FAQ
 

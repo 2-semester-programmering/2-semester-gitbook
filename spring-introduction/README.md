@@ -1,10 +1,6 @@
 # Spring 1: Introduction to Spring
 
-Kode fra undervisningen:
-
-{% embed url="https://github.com/2-semester-programmering" %}
-Kode fra undervisningen
-{% endembed %}
+[Kode fra undervisningen](https://github.com/2-semester-programmering)
 
 ![New project from wizard](../topics/spring-introduction.assets/image-20210923092334208.png)
 

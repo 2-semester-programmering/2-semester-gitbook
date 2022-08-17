@@ -62,9 +62,7 @@ A new repository method for querying an insert statement with data from POST for
 
 The data can be found here:
 
-{% embed url="https://github.com/2-semester-programmering/dat22v1_assets/blob/main/pokedex.sql" %}
-pokedex.sql
-{% endembed %}
+https://github.com/2-semester-programmering/blob/master/assets/pokedex.sql
 
 
 
