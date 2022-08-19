@@ -8,7 +8,11 @@ Knowing about different ways to store data is crucial when writing software. Rig
 
 ### Learning objectives
 
+You should know about and be able to use:
+
 * `ArrayList`
+* `LinkedList`
+* `List, Map and Set interfaces`
 * `Hashmap` - Collisions and extension
 * `TreeSet`
 * Identify which is best for which use case
