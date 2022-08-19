@@ -1,5 +1,5 @@
 ---
-description: behu@kea.dk, apr 21, ed. clbo@kea.dk aug 22
+description: behu@kea.dk, apr 21, (ed. clbo@kea.dk aug 22)
 ---
 
 # Data structures
