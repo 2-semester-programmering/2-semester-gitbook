@@ -1,13 +1,10 @@
 ---
-description: >-
-  Knowing about different ways to store data is crucial when writing software.
-  Right now it might not be that clear because you are working with small
-  amounts of data in your projects. But once you star
+description: behu@kea.dk, apr 21, ed. clbo@kea.dk aug 22
 ---
 
 # Data structures
 
-_behu@kea.dk, apr 21, ed. clbo@kea.dk aug 22_
+Knowing about different ways to store data is crucial when writing software. Right now it might not be that clear because you are working with small amounts of data in your projects. But once you star
 
 ### Learning objectives
 
