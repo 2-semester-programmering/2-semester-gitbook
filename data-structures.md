@@ -7,7 +7,7 @@ description: >-
 
 # Data structures
 
-_`behu@kea.dk, apr 21, ed. clbo@kea.dk aug 22`_
+_behu@kea.dk, apr 21, ed. clbo@kea.dk aug 22_
 
 ### Learning objectives
 
