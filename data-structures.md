@@ -68,7 +68,9 @@ Stores items just like `ArrayList` but does it in a different way
 
 Use `LinkedList` if you need to add or remove items in the start of your `List` then use `LinkedList`. BUT getting an item at a index takes `O(n)` time. Huge disadvantage.
 
-More in depth here: https://stackoverflow.com/questions/322715/when-to-use-linkedlist-over-arraylist-in-java
+More in depth here: [https://stackoverflow.com/questions/322715/when-to-use-linkedlist-over-arraylist-in-java](https://stackoverflow.com/questions/322715/when-to-use-linkedlist-over-arraylist-in-java)
+
+
 
 **Typical `List` usages**
 
