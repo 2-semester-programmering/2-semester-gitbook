@@ -7,6 +7,8 @@ description: >-
 
 # Data structures
 
+_`behu@kea.dk, apr 21, ed. clbo@kea.dk aug 22`_
+
 ### Learning objectives
 
 * `ArrayList`
