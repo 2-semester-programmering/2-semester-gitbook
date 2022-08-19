@@ -13,6 +13,8 @@ Knowing about different ways to store data is crucial when writing software. Rig
 * `TreeSet`
 * Identify which is best for which use case
 
+![Java Collections Framework](.gitbook/assets/java-collection-framework.png)
+
 ### Specifying the ADT
 
 It's a good practice to declare any variables and parameters of a collection type using the appropriate interface type for that ADT rather than the actual class's type.
@@ -49,6 +51,8 @@ A sequence of elements arranged in order of insertion
 
 Stores items just like `ArrayList` but does it in a different way
 
+![Linked List](.gitbook/assets/Linkedlist.png)
+
 **Pros**
 
 * Adding and removing at the end and front of the list is fast
@@ -71,6 +75,8 @@ More in depth here: https://stackoverflow.com/questions/322715/when-to-use-linke
 ### Map
 
 A collection that associates objects called keys with objects called values. You can store a key/value pair into a map; later in your code, if you supply just the key to the map, it will give you back the value associated with that key.
+
+![HashMap](.gitbook/assets/steam-hashmap.png)
 
 _Instructor note: code the above data structure_ 👆
 
@@ -173,6 +179,8 @@ stooges.add("Moe"); // duplicate, won't be added
 | intersection      | `retainAll` | Set of all elements that are in both A and B  |
 | difference        | `removeAll` | Set of all elements that are i A but not in B |
 
+![](.gitbook/assets/treeset.png)
+
 _Make an example with some sets of names_
 
 **Pros**
@@ -217,6 +225,8 @@ Using the `Set` data structure and the `randomNames1` and `randomNames2` figure 
 Iteration is different for most ADT's (Abstract Data Types) like `List`, `Map`, `Tree`. You can figure out how to iterate by googling: `YOUR_DATA_STRUCTURE iteration` fx `TreeSet iteration`
 
 ### Which data structure to choose?
+
+![](.gitbook/assets/which-data-structure.png)
 
 | Java class                          | elements in order | insert    | add                         | find                 | delete                            |
 | ----------------------------------- | ----------------- | --------- | --------------------------- | -------------------- | --------------------------------- |
