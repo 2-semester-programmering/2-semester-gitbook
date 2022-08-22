@@ -19,20 +19,23 @@ There are two ways to achieve abstraction in java
 1. Abstract class (0 to 100%)
 2. **Interface (100%) - the one we will focus on**
 
-## Client code / Library Code
+### Client code / Library Code
 
-When we work with the concept of abstraction it is good to think of the code you are writing as either Client code or Library Code.  In relation to the examples above, **Client code** would be the break pedal or the SMS interface. It is easy and simple to use, and we dont need to know how it is programmed. **Library code** is then the actual code with the details.&#x20;
+When we work with abstraction it is good to think of the code you are writing as either Client code or Library Code.  In relation to the examples above, **Client code** would be the break pedal. It is easy and simple to use, and we dont need to know in details how it is programmed. \
+**Library code** is then the actual code with all the details.&#x20;
 
 A little naive but descriptive example could look like this:
 
 <pre class="language-java"><code class="lang-java">// Library Code
 <strong>class Car {
 </strong>    private int speed;
-    public void accelerator(int speed){
+    
+    public void acceleratorPedal(int speed){
         this.speed = speed;
     }
+    
     public void breakPedal(){
-        this.speed = speed;
+        this.speed = 0;
     }
 }</code></pre>
 
@@ -41,7 +44,57 @@ A little naive but descriptive example could look like this:
 class Main{
     public static void main(String[] args) {
         Car bmw = new Car();
-        bmw.accelerator(100);  // Speed up car
+        bmw.acceleratorPedal(100);  // Speed up car
+        bmw.breakPedal();  // stop car
+    }
+}
+```
+
+In my Client Code i only need to know that i can use the two methods **accelerator** and **breakPedal** and i need to know that accelerator takes one parameter (which in this case is the speed i want the car to drive) and that it has a void return value. I also need to know that the method breakPedal has no parameters and it also has a void return type.  Thats it!
+
+If i (the author of the Library code) would at some point like to make the car a little more advanced, i could do that without "breaking" the client code by just following the simple agreements that the accelerator method "takes one parameter" and "returns void", and that the breakPedal method has "no parameters" and "returns void". &#x20;
+
+My code could look like this, without the user of the client code would ever know anything about what has happened. The code in the Main class does not have to change anything.&#x20;
+
+<pre class="language-java"><code class="lang-java"><strong>// Library Code
+</strong><strong>class Car {
+</strong>    private int speed;
+    public void acceleratorPedal(int speed){
+        if(this.speed &#x3C; speed){
+            for(int i = this.speed; i &#x3C; speed; i++){
+                sleepOneSec();
+                this.speed = speed;
+            }
+        } else if (this.speed > speed) {
+            for(int i = this.speed; i > speed; i--){
+                sleepOneSec();
+                this.speed = speed;
+            }
+        }
+    }
+    
+    public void breakPedal(){
+        for(int i = this.speed; i > 0; i--){
+            sleepOneSec();
+            this.speed = i;
+        }
+    }
+       
+    private static void sleepOneSec() {
+        try {
+            TimeUnit.SECONDS.sleep(1);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
+}</code></pre>
+
+```java
+// Client Code
+class Main{
+    public static void main(String[] args) {
+        Car bmw = new Car();
+        bmw.acceleratorPedal(100);  // Speed up car
         bmw.breakPedal();  // stop car
     }
 }
