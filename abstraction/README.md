@@ -96,6 +96,6 @@ My code could look like this, without the user of the client code would ever kno
     }
 }</code></pre>
 
-It complicates things a little that in your case you are most often writing both client code and library code, but this is mostly due too that it is very small projects you are working on.&#x20;
+It complicates things a little that in your case you are most often writing both client code and library code, but this is mostly due too the fact that it is often very small projects you are working on.&#x20;
 
-But stick to this principle: when you code keep library code and client code separate. &#x20;
+But still, stick to this principle: **when you code keep library code and client code separate.** &#x20;
