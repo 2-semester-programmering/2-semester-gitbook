@@ -26,9 +26,9 @@ When we work with abstraction it is good to think of the code you are writing as
 
 A little naive but descriptive example could look like this:
 
-<pre class="language-java"><code class="lang-java">// Library Code
-<strong>class Car {
-</strong>    private int speed;
+<pre class="language-java" data-line-numbers><code class="lang-java"><strong>// Library Code
+</strong>class Car {
+    private int speed;
     
     public void acceleratorPedal(int speed){
         this.speed = speed;
@@ -39,16 +39,14 @@ A little naive but descriptive example could look like this:
     }
 }</code></pre>
 
-```java
-// Client Code
-class Main{
+<pre class="language-java" data-line-numbers><code class="lang-java"><strong>// Client Code
+</strong>class Main{
     public static void main(String[] args) {
         Car bmw = new Car();
         bmw.acceleratorPedal(100);  // Speed up car
         bmw.breakPedal();  // stop car
     }
-}
-```
+}</code></pre>
 
 In my Client Code i only need to know that i can use the two methods **accelerator** and **breakPedal** and i need to know that accelerator takes one parameter (which in this case is the speed i want the car to drive) and that it has a void return value. I also need to know that the method breakPedal has no parameters and it also has a void return type.  Thats it!
 
@@ -56,9 +54,9 @@ If i (the author of the Library code) would at some point like to make the car a
 
 My code could look like this, without the user of the client code would ever know anything about what has happened. The code in the Main class does not have to change anything.&#x20;
 
-<pre class="language-java"><code class="lang-java"><strong>// Library Code
-</strong><strong>class Car {
-</strong>    private int speed;
+<pre class="language-java" data-line-numbers><code class="lang-java"><strong>// Library Code
+</strong>class Car {
+    private int speed;
     public void acceleratorPedal(int speed){
         if(this.speed &#x3C; speed){
             for(int i = this.speed; i &#x3C; speed; i++){
@@ -89,16 +87,14 @@ My code could look like this, without the user of the client code would ever kno
     }
 }</code></pre>
 
-```java
-// Client Code
-class Main{
+<pre class="language-java" data-line-numbers><code class="lang-java"><strong>// Client Code
+</strong>class Main{
     public static void main(String[] args) {
         Car bmw = new Car();
         bmw.acceleratorPedal(100);  // Speed up car
         bmw.breakPedal();  // stop car
     }
-}
-```
+}</code></pre>
 
 It complicates things a little that in your case you are most often writing both client code and library code, but this is mostly due too that it is very small projects you are working on.&#x20;
 

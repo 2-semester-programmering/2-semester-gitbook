@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Kompendie](README.md)
-* [Abstraction](abstraction.md)
+* [Abstraction](abstraction/README.md)
 * [Data structures](data-structures.md)
 * [Spring 1: Introduction to Spring](spring-introduction/README.md)
   * [My First Website](spring-introduction/my-first-website.md)
