@@ -99,3 +99,7 @@ class Main{
     }
 }
 ```
+
+It complicates things a little that in your case you are most often writing both client code and library code, but this is mostly due too that it is very small projects you are working on.&#x20;
+
+But stick to this principle when you code keep user code and client code separate. &#x20;
