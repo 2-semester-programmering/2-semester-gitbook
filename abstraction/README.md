@@ -10,14 +10,14 @@ Another example is the break pedal of a Car. If an animal jumps in front of your
 
 The pedal is an abstraction, it hides the technical details and gives us a simple an easy to use interface to the cars breaking system.&#x20;
 
-Abstraction lets you focus on what the [object](https://www.javatpoint.com/object-and-class-in-java) does instead of how it does it.
+Abstraction lets you focus on what the object does instead of how it does it.
 
-#### Ways to achieve Abstraction
+#### Ways to achieve Abstraction in Java
 
 There are two ways to achieve abstraction in java
 
 1. Abstract class (0 to 100%)
-2. Interface (100%)
+2. **Interface (100%) - the one we will focus on**
 
 
 
