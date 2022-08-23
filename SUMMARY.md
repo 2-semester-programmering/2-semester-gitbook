@@ -2,6 +2,7 @@
 
 * [Kompendie](README.md)
 * [Abstraction](abstraction/README.md)
+  * [Ex: Client vs Library Code](abstraction/ex-client-vs-library-code.md)
 * [Data structures](data-structures.md)
 * [Spring 1: Introduction to Spring](spring-introduction/README.md)
   * [My First Website](spring-introduction/my-first-website.md)
@@ -18,4 +19,3 @@
 * [Unit tests](topics/Unit-test.md)
 * [Sessions](topics/sessions.md)
 * [Exercise Solutions](https://github.com/2-semester-programmering?q=solution\&type=all\&language=\&sort=)
-* [Ex Client vs Library Code](ex-client-vs-library-code.md)

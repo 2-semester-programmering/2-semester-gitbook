@@ -53,7 +53,7 @@ A sequence of elements arranged in order of insertion
 
 #### LinkedList
 
-Stores items just like `ArrayList` but does it in a different way
+Stores items just like `ArrayList` but does it in a different way.
 
 ![Linked List](.gitbook/assets/Linkedlist.png)
 
@@ -63,10 +63,11 @@ Stores items just like `ArrayList` but does it in a different way
 
 **Cons**
 
-* Finding a specific item is slow. Since we need to search through every item in the array to find what we are looking for
-* Slow to get items at a specific index
+* Finding a specific item is slow. Since we need to search through every item in the linked list to find what we are looking for
+* Slow to get items at a specific indextræpiller import fra sverie
+*
 
-Use `LinkedList` if you need to add or remove items in the start of your `List` then use `LinkedList`. BUT getting an item at a index takes `O(n)` time. Huge disadvantage.
+Use `LinkedList` if you need to add or remove items in the start of your `List,` BUT getting an item at an index takes `O(n)` time. Huge disadvantage.
 
 More in depth here: [https://stackoverflow.com/questions/322715/when-to-use-linkedlist-over-arraylist-in-java](https://stackoverflow.com/questions/322715/when-to-use-linkedlist-over-arraylist-in-java)
 
