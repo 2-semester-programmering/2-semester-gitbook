@@ -105,17 +105,31 @@ Klik: **File -> Project Structure -> modules -> + -> JARs or Directories**
 
 Find din jar fil og klik "open", klik "apply, OK, OK"
 
+Under "External Libraries" kan du nu se din importerede jar fil
 
+![](<../.gitbook/assets/Screenshot 2022-08-23 at 14.49.13.png>)
 
+#### Brug koden fra JAR filen
 
+Lav en Main.java fil og brug bibliotekskoden.
 
+```
+public class Main {
+    public static void main(String[] args) {
+        Library library = new Library();
+        var result = library.doesBookExist(new Book("War Thunder", "John Doe", "123456789", 2019));
+        System.out.println(result);
+    }
+}
+```
 
+#### Client Code vs Library Code
 
+I dette eksempel er alt hvad du har lavet af kode og som er tilgængeligt i din jar fil "Library Code", alt hvad du har i dinn Main herover er "Client Code". På klientsiden ved du ikke hvordan **doesBookExist** finder ud af om bogen eksisterer, men du ved hvordan du bruger metoden. Dette er et eksempel på abstraction.&#x20;
 
+#### ArrayList
 
-
-
-Ligesom når du bruger en Arrayliste så gør du også brug af noget "Library" kode som nogle andre mennesker har lavet og som du sikkert ikke har megen ide om hvordan er lavet da du arbejder med en abstraktion.
+Ligesom når du bruger en Arrayliste så gør du også  brug af noget "Library" kode som nogle andre mennesker har lavet og som du sikkert ikke har megen ide om hvordan er lavet da du arbejder med en abstraktion.
 
 ```
 import java.util.ArrayList;
