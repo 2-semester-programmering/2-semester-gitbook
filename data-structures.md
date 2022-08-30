@@ -64,8 +64,7 @@ Stores items just like `ArrayList` but does it in a different way.
 **Cons**
 
 * Finding a specific item is slow. Since we need to search through every item in the linked list to find what we are looking for
-* Slow to get items at a specific indextræpiller import fra sverie
-*
+* Slow to get items at a specific index
 
 Use `LinkedList` if you need to add or remove items in the start of your `List,` BUT getting an item at an index takes `O(n)` time. Huge disadvantage.
 
