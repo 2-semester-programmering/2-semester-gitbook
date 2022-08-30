@@ -17,7 +17,7 @@ You should know about and be able to use:
 * `TreeSet`
 * Identify which is best for which use case
 
-![Java Collections Framework](../.gitbook/assets/java-collection-framework.png)
+![Java Collections Framework](.gitbook/assets/java-collection-framework.png)
 
 ### Specifying the ADT
 
@@ -55,7 +55,7 @@ A sequence of elements arranged in order of insertion
 
 Stores items just like `ArrayList` but does it in a different way.
 
-![Linked List](../.gitbook/assets/Linkedlist.png)
+![Linked List](.gitbook/assets/Linkedlist.png)
 
 **Pros**
 
@@ -82,7 +82,7 @@ More in depth here: [https://stackoverflow.com/questions/322715/when-to-use-link
 
 A collection that associates objects called keys with objects called values. You can store a key/value pair into a map; later in your code, if you supply just the key to the map, it will give you back the value associated with that key.
 
-![HashMap](../.gitbook/assets/steam-hashmap.png)
+![HashMap](.gitbook/assets/steam-hashmap.png)
 
 _Instructor note: code the above data structure_ 👆
 
@@ -185,7 +185,7 @@ stooges.add("Moe"); // duplicate, won't be added
 | intersection      | `retainAll` | Set of all elements that are in both A and B  |
 | difference        | `removeAll` | Set of all elements that are i A but not in B |
 
-![](../.gitbook/assets/treeset.png)
+![](.gitbook/assets/treeset.png)
 
 _Make an example with some sets of names_
 
@@ -232,7 +232,7 @@ Iteration is different for most ADT's (Abstract Data Types) like `List`, `Map`, 
 
 ### Which data structure to choose?
 
-![](../.gitbook/assets/which-data-structure.png)
+![](.gitbook/assets/which-data-structure.png)
 
 | Java class                          | elements in order | insert    | add                         | find                 | delete                            |
 | ----------------------------------- | ----------------- | --------- | --------------------------- | -------------------- | --------------------------------- |

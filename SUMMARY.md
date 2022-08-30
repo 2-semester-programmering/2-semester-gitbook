@@ -3,7 +3,7 @@
 * [Kompendie](README.md)
 * [Abstraction](abstraction/README.md)
   * [Ex: Client vs Library Code](abstraction/ex-client-vs-library-code.md)
-* [Data structures](data-structures/README.md)
+* [Data structures](data-structures.md)
   * [Ex: ADT, Generics, DI](data-structures/ex-adt-generics-di.md)
 * [Spring 1: Introduction to Spring](spring-introduction/README.md)
   * [My First Website](spring-introduction/my-first-website.md)
