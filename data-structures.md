@@ -218,7 +218,9 @@ There are [other differences](https://stackoverflow.com/questions/25602382/java-
 
 #### Set exercises - 30 min
 
-Using this boilerplate: https://github.com/behu-kea/data-structure-exercise-boilerplate
+Using this boilerplate:&#x20;
+
+[https://github.com/2-semester-programmering/data-structure-exercise-boilerplate](https://github.com/2-semester-programmering/data-structure-exercise-boilerplate)&#x20;
 
 Using the `Set` data structure and the `randomNames1` and `randomNames2` figure out
 
