@@ -324,7 +324,7 @@ For hvert element
 
 **Map**
 
-1. Skriv en metode der hedder `aliceInWonderland` som indlæser filen [aliceInWonderland](https://github.com/behu-kea/dat20-classes/blob/master/week-10/assets/Alice%20in%20wonderland) og printer et map med følgende Key/value pair
+1. Skriv en metode der hedder `aliceInWonderland` som indlæser filen [aliceInWonderland](https://github.com/behu-kea/dat20-classes/blob/master/Data%20structures%20%26%20ADT/assets/Alice%20in%20wonderland) og printer et map med følgende Key/value pair
    * Key: Unikke ord i bogen
    * Value: Hvor mange gange det optræder
 
