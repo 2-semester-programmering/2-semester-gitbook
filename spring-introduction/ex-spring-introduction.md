@@ -24,7 +24,7 @@ Create an endpoint that echo’s the users GET parameter from the URL. E.g: `htt
 
 ### 1.3 Exercise: ErDetFredag?
 
-Create an endpoint to mimic www.erdetfredag.dk with plain text.
+Create an endpoint to mimic ![www.erdetfredag.dk]() with plain text.
 
 #### 1.3.1 Hint: Steps
 
