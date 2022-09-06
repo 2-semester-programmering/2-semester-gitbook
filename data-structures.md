@@ -249,6 +249,8 @@ Iteration is different for most ADT's (Abstract Data Types) like `List`, `Map`, 
 
 ### Exercise - Rest of class
 
+[Solution example](https://github.com/2-semester-programmering/Ex_3_which_datastructure)
+
 #### System for Storebæltsbroen
 
 We have been asked to build a system for Storebæltsbroen. They want to build a system that can keep track of all the cars that cross the bridge. They have built some software for recognising numberplates, car color, number of passengers and length. The information about a car should be saved using the numberplate.
