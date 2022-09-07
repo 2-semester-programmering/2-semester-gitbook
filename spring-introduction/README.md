@@ -2,7 +2,7 @@
 
 Kode fra undervisningen:
 
-{% embed url="https://github.com/2-semester-programmering" %}
+{% embed url="https://github.com/2-semester-programmering/04_kode_fra_undervisningen" %}
 Kode fra undervisningen
 {% endembed %}
 
