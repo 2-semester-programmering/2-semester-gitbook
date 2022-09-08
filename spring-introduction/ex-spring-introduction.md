@@ -6,7 +6,7 @@ description: nifr@kea.dk February 202, ed. clbo@kea.dk August 2022
 
 Solution (comes in a few days):&#x20;
 
-{% embed url="https://github.com/2-semester-programmering" %}
+{% embed url="https://github.com/2-semester-programmering/Ex_HelloSpring" %}
 Solution
 {% endembed %}
 
