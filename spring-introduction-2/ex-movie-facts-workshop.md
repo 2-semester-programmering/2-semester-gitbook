@@ -24,11 +24,11 @@ This end-point welcomes the user and prints out a short description of your appl
 ### 3.2 /getFirst
 
 (Shown in class)\
-This end-points calls a service that finds the first movie from the list.
+This end-points calls a service that finds the first movie from the list and displays it.
 
 ### 3.3 /getRandom
 
-This end-point calls a service, that finds a single random movie from the listand displays the title.
+This end-point calls a service, that finds a single random movie from the list and displays it.
 
 ### 3.4 /getTenSortByPopularity
 
