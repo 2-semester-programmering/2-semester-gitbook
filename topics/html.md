@@ -99,7 +99,7 @@ An example of some sections on a page.
 ![Image not loaded go to https://github.com/behu-kea/dat20-classes/blob/master/week-1/assets/layout.png to see image](assets/layout.png)
 
 
-
+<!--
 ## HTML DOM
 
 DOM stands for Document Object Model. It is a representation of the html elements! The individual html elements are represented as nodes.
@@ -127,3 +127,4 @@ The nodes have relationships between each other.
 * What relationship does the `div` with id `div1`  has to the `h1`?
 * Who is the `h1`'s grandparent?
 * How many children does the `HTML` element have?
+-->
