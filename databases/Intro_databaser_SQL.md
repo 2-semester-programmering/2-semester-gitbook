@@ -67,7 +67,10 @@ SELECT name, email from student;
 SELECT * FROM student WHERE id = 2;
 
 
-``` 
+```
+### ER diagram fra undervisningen
+
+![](assets/student_er.png) 
 
 ## Øvelser
 
@@ -89,8 +92,9 @@ SELECT * FROM student WHERE id = 2;
 ```
 
 1. Baseret på csv filen herover skal i lave en database (imdb) med en tabel (movies) som indeholder alle kolonner fra csv filen.
-2. Indsæt herefter de 10 film i movies tabellen.
-3. Herefter skal i udtrække (SELECT):
+2. Genrer herefter et ER diagram i intelliJ
+3. Indsæt herefter de 10 film i movies tabellen.
+4. Herefter skal i udtrække (SELECT):
 	* Alle film i tabellen
 	* Title fra alle film
 	* Alle info på film fra 1962
