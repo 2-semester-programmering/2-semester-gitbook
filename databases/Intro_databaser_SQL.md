@@ -17,6 +17,6 @@ Efter i dag vil du kunne:
 
 * [Oprettelse af en database management server på AZURE](assets/AZURE_opret_db.png)
 	* **NB: dette har i gjort med Janus i teknikundervisningen**
-* [Kodeeksempler fra undervisningen](assets/sql.md)
+* [Kodeeksempler fra undervisningen](sql.md)
 
 ## Øvelser
