@@ -42,7 +42,7 @@ On a template, we can outline the basic "skeleton" for a page, and dynamically f
 
 **Interpreted in the browser as:**
 
-![image-20211020134057288](Untitled.assets/image-20211020134057288.png)
+![image-20211020134057288](Thymeleaf.assets/image-20211020134057288.png)
 
 **A controller that routes to the static page**
 
@@ -78,7 +78,7 @@ To achieve this - we need to import a class from Spring called Model and inject 
 
 **Which will render the same view**
 
-![image-20211020134057288](Thymeleaf.assets/image-20211020134057288.png)
+![image-20211020134057288](Untitled.assets/image-20211020134057288.png)
 
 \*\*But! \*\* the changes are now - that we have added data from the Java-backend and can dynamically change content from the applicaiton.
 

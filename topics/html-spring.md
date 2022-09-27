@@ -16,7 +16,7 @@ Github example: [https://github.com/2-semester-programmering/html-spring](https:
 
 **html files in the "templates" folder**
 
-![image-20211019084823434](html-spring.assets/image-20211019084823434.png)
+![image-20211019084823434](html-spring.assets/image-20211019084821839.png)
 
 **Front page**
 

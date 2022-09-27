@@ -6,10 +6,10 @@ Kode fra undervisningen:
 Kode fra undervisningen
 {% endembed %}
 
-![New project from wizard](../topics/spring-introduction.assets/image-20210923092334208.png)
+![New project from wizard](../.gitbook/assets/image-20210923090318535.png)
 
-![Naming](<../.gitbook/assets/image-20210923090334712 (1).png>)
+![Naming](../.gitbook/assets/image-20210923090334712.png)
 
-![Dependencies](../topics/spring-introduction.assets/image-20210923092414549.png)
+![Dependencies](../.gitbook/assets/image-20210923090345394.png)
 
-![Done](../topics/spring-introduction.assets/image-20210923092447170.png)
+![Done](../.gitbook/assets/image-20210923090401392.png)

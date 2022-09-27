@@ -53,7 +53,7 @@ Run the application
 
 push the green start button in the upper right corner.
 
-![](<../.gitbook/assets/Screen Shot 2017-11-17 at 23.49.09 (1).png>)
+![](<../.gitbook/assets/Screen Shot 2017-11-17 at 23.49.09.png>)
 
 Open your browser and type http://localhost:8080
 

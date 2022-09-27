@@ -13,9 +13,8 @@
 * [HTML & CSS](topics/html.md)
   * [CSS](topics/css.md)
   * [HTML in Spring boot](topics/html-spring.md)
-* [Databaser I](databases/Intro_databaser_SQL.md)
-* [Database II]()
-<!-- * [Database exercise](exercises/databaseemployees-departments.md)-->
+* [Databaser I](databases/Intro\_databaser\_SQL.md)
+* [Database II](<README (1).md>)
 * [HTML Forms](topics/html-forms.md)
 * [Thymeleaf](topics/Thymeleaf.md)
 * [Backend Design](topics/backend-design.md)
@@ -23,4 +22,3 @@
 * [Sessions](topics/sessions.md)
 * [Exercise Solutions](https://github.com/2-semester-programmering?q=solution\&type=all\&language=\&sort=)
 * [Github repo](https://github.com/2-semester-programmering/)
-
