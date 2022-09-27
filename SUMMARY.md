@@ -14,7 +14,7 @@
   * [CSS](topics/css.md)
   * [HTML in Spring boot](topics/html-spring.md)
 * [Databaser I](databases/Intro\_databaser\_SQL.md)
-  * [SQL fra undervisningen](databases.md)
+  * [SQL fra undervisningen](databases/sql.md)
 * [Database II](<README (1).md>)
 * [HTML Forms](topics/html-forms.md)
 * [Thymeleaf](topics/Thymeleaf.md)
