@@ -145,9 +145,11 @@ photos": [
 ] 
 
 ```
- 
-Herefter skal i SELECT:
 
-* url´en til billederne taget af kameraet "FHAS"
-* Alt info om billedet med id 102694
-* Alt info om alle billeder.
+* Genere herefter et ER-Diagram  
+
+**Herefter skal i SELECT:**
+
+1. url´en til billederne taget af kameraet "FHAS"
+2. Alt info om billedet med id 102694
+3. Alt info om alle billeder.
