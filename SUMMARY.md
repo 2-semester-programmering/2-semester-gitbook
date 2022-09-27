@@ -13,7 +13,9 @@
 * [HTML & CSS](topics/html.md)
   * [CSS](topics/css.md)
   * [HTML in Spring boot](topics/html-spring.md)
-* [Database exercise](exercises/databaseemployees-departments.md)
+* [Databaser I](databases/Intro_databaser_SQL.md)
+* [Database II]()
+<!-- * [Database exercise](exercises/databaseemployees-departments.md)-->
 * [HTML Forms](topics/html-forms.md)
 * [Thymeleaf](topics/Thymeleaf.md)
 * [Backend Design](topics/backend-design.md)
