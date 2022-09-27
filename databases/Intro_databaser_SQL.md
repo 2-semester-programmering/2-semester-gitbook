@@ -103,6 +103,8 @@ SELECT * FROM student WHERE id = 2;
 	* Info på alle film fra Drama genren som har modtaget en Award.
 	* Alle info på den film med højest popularity
 		* skal løses vha [SQL MAX Function](https://www.w3schools.com/sql/func_mysql_max.asp) 
+	* Find den gennemsnitlige rating på alle film i databasen.
+		* Her skal i bruge [MySQL AVG() Function](https://www.w3schools.com/sql/func_mysql_avg.asp)
 
 ### Ex2: Nasa Mars Rover API data
 
