@@ -17,7 +17,8 @@ Efter i dag vil du kunne:
 
 * [Oprettelse af en database management server på AZURE](assets/AZURE\_opret\_db.png)
   * **NB: dette har i gjort med Janus i teknikundervisningen**
-
+* [Gratis Linkedin Learning kursus om MySQL for begyndere (1t 48m)](https://www.linkedin.com/learning/learning-mysql-development-2/learning-to-use-mysql?autoplay=true&resume=false&u=36836804)
+* [W3Schools SQL tutorial](https://www.w3schools.com/sql/)
 
 ## Kode fra sql undervisningen 
 
