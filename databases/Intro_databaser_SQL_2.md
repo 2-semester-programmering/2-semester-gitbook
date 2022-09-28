@@ -4,6 +4,8 @@ Efter i dag vil du kunne:
 
 * Opdatere data i en kolonne vha. SQL´s **UPDATE** statement.
 * Slette en kolonne vha. SQL´s **DELETE FROM** sttatement.
+* Arbjde med SQL operatore.
+* Arbejde med SQL functions.
 
 ## Materiale
 * [W3School SQL tutorial](https://www.w3schools.com/sql/)
