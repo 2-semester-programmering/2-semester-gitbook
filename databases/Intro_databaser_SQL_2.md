@@ -92,4 +92,31 @@ CREATE TABLE test (
 
 ## Øvelser
 
-Ex1: Movie database fortsat
+### Ex1: Pokedex
+
+Data for this exercise can be found here: https://github.com/2-semester-programmering/dat22v1_assets/blob/main/pokedex.sql
+
+#### Before you start solving the tasks Reflect about:
+
+1. What are the contents of the data-set?
+2. What are the semantics (meaning) of the data-set?
+3. How can we build a model (java class) that represents each entity? (you do not have to create java classes, just think about it).
+
+#### Exercises:
+1. Create a file pokedex.sql and copy/paste the insert statements from github into the file. 
+Extend the sql file with a ```` CREATE DATABASE ```` , a ```` USE ```` and a ```` CREATE TABLE ````statement, thus creating a new database and a new table for the data.
+
+2. Insert the data
+
+Build the following views that displays:
+* What are all primary types (show a list of the ones in the dataset)
+* What are the average defence for all pokemon?
+* What are the average hp for (primary) grass types?
+* How many pokemon exists pr. primary type?
+* How many fire pokemon has higher hp than the average pokemon?
+* What primary type are the fastest?
+
+
+
+
+
