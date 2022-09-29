@@ -6,6 +6,8 @@ Efter i dag vil du kunne:
 * Slette en kolonne vha. SQL´s **DELETE FROM** sttatement.
 * Arbjde med SQL operatore.
 * Arbejde med SQL functions.
+* Arbejde med subselects
+
 
 ## Materiale
 * [W3School SQL tutorial](https://www.w3schools.com/sql/)
@@ -70,6 +72,9 @@ SELECT * FROM student WHERE name LIKE '%a';
 -- IN Operator
 SELECT * FROM student WHERE name IN ('Claus', 'Ulla');
 
+-- IN Operator (with subselect)
+SELECT * FROM student WHERE name IN (SELECT name FROM student WHERE name LIKE '%r%'); 
+
 -- BETWEEN Operator
 SELECT * FROM student WHERE id BETWEEN 2 AND 4;
 
@@ -94,7 +99,7 @@ CREATE TABLE test (
 
 ### Ex1: Pokedex
 
-Data for this exercise can be found here: https://github.com/2-semester-programmering/dat22v1_assets/blob/main/pokedex.sql
+Data for this exercise can be found here: [pokedex.sql](https://github.com/2-semester-programmering/dat22v1_assets/blob/main/pokedex.sql)
 
 #### Before you start solving the tasks Reflect about:
 
