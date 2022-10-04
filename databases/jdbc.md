@@ -48,3 +48,23 @@ public class DatabaseConnectionManager {
 
 ## Øvelser
 
+### Movie Workshop, (nu med Database)
+
+
+#### MySQL Driver dependency
+Cope/paste dette ind i din pom.xml fil.
+
+```
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+```
+
+Du kunne også have afkrydset **MySql Driver** under dependencies da du oprettede projektet. 
+
+![](assets/MySqlDriver.png)
+
+
+
