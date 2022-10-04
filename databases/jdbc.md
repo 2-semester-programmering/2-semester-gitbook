@@ -1,31 +1,40 @@
 
 ## Læringsmål
 * Forbind en spring boot webapplikation med en mysql database.
-
+* Læse fra en tabel i databasen og ligge resultatet i en List<> og vise resultatet i browseren vha. @RestController.
+* Lære at brug et singleton design pattern. 
 
 ## Materiale
 
 
 ## Kode fra sql undervisningen 
 
-```
-public class ConnectionExample {
-    public static void main(String[] args) {
-        try{
-            Connection conn = DriverManager.getConnection("jdbc:mysql://[HOSTNAME]/[YOUR DATABASE NAME]","[YOUR USERNAME]","[YOUR PASSWORD]");
-            PreparedStatement psts = conn.prepareStatement("SELECT * from employees");
-            ResultSet resultSet = psts.executeQuery();
-            while(resultSet.next()){
-                System.out.println(resultSet.getString(2));
-            }
 
-        }catch(SQLException e){
-            System.out.println("Cannot connect to database");
+## Forbind Spring Boot og database
+
+```
+public class DatabaseConnectionManager {
+    private static String hostname;
+    private static String username;
+    private static String password;
+    private static Connection conn;
+
+    public static Connection getConnection(){
+        if(conn != null){
+            return conn;
+        }
+
+        hostname = "jdbc:mysql://clbodat22v1.mysql.database.azure.com/pokedex";
+        username = "clbo";
+        password = "Kea_pass";
+        try {
+            conn = DriverManager.getConnection(hostname, username, password);
+        } catch (SQLException e) {
             e.printStackTrace();
         }
+        return conn;
     }
 }
-
 ```
 
  
