@@ -63,6 +63,9 @@ Cope/paste dette ind i din pom.xml fil.
             <scope>runtime</scope>
         </dependency>
 ```
+Husk at klikke på dette icon for at downloade og integrere denne dependency i dit projekt.
+
+![](mavendep.png)
 
 Du kunne også have afkrydset **MySql Driver** under dependencies da du oprettede projektet. 
 
