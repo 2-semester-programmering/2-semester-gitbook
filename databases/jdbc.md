@@ -64,7 +64,7 @@ Cope/paste dette ind i din pom.xml fil.
 ```
 Husk at klikke på dette icon for at downloade og integrere denne dependency i dit projekt.
 
-![](mavendep.png)
+![](mavandep.png)
 
 Du kunne også have afkrydset **MySql Driver** under dependencies da du oprettede projektet. 
 
