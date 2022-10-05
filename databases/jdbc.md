@@ -1,13 +1,13 @@
 
-## Læringsmål
+# Læringsmål
 * Forbind en spring boot webapplikation med en mysql database.
 * Læse fra en tabel i databasen og ligge resultatet i en List<> og vise resultatet i browseren vha. @RestController.
 * Lære at brug et singleton design pattern. 
 
-## Materiale
+# Materiale
 
 
-## Kode fra sql undervisningen 
+# Kode fra sql undervisningen 
 
 
 ## Forbind Spring Boot og database
@@ -38,15 +38,15 @@ public class DatabaseConnectionManager {
 ```
 
  
-
+<!--
 ### Generer et dump af din database
 
 ```
 	$ mysqldump --opt -u [uname] -p [pass] [dbname] > [backupfile.sql]
 ```
+-->
 
-
-## Øvelser
+#  Øvelser
 
 ## Movie Workshop, (nu med Database)
 Du skal i denne opgave arbejde videre på [MovieWorkshop projektet](https://clbo.gitbook.io/2_semester_kompendie/spring-introduction-2/ex-movie-facts-workshop). 
@@ -70,5 +70,9 @@ Du kunne også have afkrydset **MySql Driver** under dependencies da du opretted
 
 ![](assets/MySqlDriver.png)
 
+## Læs Data fra Database i stedet for excell
+Øvelsen går nu ud på at læse data fra en database i stedet for fra et excellark. 
+
+Så det førte du skal gøre er at lave en ny klasse og kald den MovieDBRepository. I denne fil skal du have de samme metoder som i MovieRepository, men data skal læses fra en database i stedet for excell. 
 
 
