@@ -36,6 +36,46 @@ public class DatabaseConnectionManager {
     }
 }
 ```
+## Læs data fra Databasen
+
+```
+public class StudentRepository {
+
+    private Connection conn = DatabaseConnectionManager.getConnection();
+
+    public List<Student> getAll(){
+
+        List<Student> students = new ArrayList<>();
+
+        try {
+            PreparedStatement  psts = conn.prepareStatement("SELECT * from students");
+            ResultSet resultSet = psts.executeQuery();
+
+            while(resultSet.next()){
+                students.add(new Student(
+				resultSet.getInteger("id"),
+				resultSet.getString("name"),
+				resultSet.getString("cpr")	
+				)
+            }
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+        return students;
+    }
+
+    public Student getStudent(int id){
+		
+    }
+
+}
+
+
+```
+
+
 
  
 <!--
