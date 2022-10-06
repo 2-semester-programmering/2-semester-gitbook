@@ -37,18 +37,20 @@ public class DatabaseConnectionManager {
 }
 ```
 ## Læs data fra Databasen
+I dette eksempel læses alle students fra databasen og tilføjes en Liste som returneres til servicelaget eller controller.
 
 ```
 public class StudentRepository {
 
     private Connection conn = DatabaseConnectionManager.getConnection();
 
-    public List<Student> getAll(){
+    // Get all students fron the database
+    public List<Student> getAllStudents(){
 
         List<Student> students = new ArrayList<>();
 
         try {
-            PreparedStatement  psts = conn.prepareStatement("SELECT * from students");
+            PreparedStatement  psts = conn.prepareStatement("SELECT * FROM students");
             ResultSet resultSet = psts.executeQuery();
 
             while(resultSet.next()){
@@ -65,14 +67,37 @@ public class StudentRepository {
 
         return students;
     }
+```
 
+I dette eksempel SELECTES der en studerende baseret på det id der kommer med somparameter i metoden.
+
+```
+
+    // Get one student based on the id
     public Student getStudent(int id){
 		
+        try {
+            PreparedStatement  psts = conn.prepareStatement("SELECT * FROM students WHERE id = ?");
+	    psts.setInt(1, id); 
+            ResultSet resultSet = psts.executeQuery();
+
+           if(resultSet.next()){
+                return new Student(
+				resultSet.getInteger("id"),
+				resultSet.getString("name"),
+				resultSet.getString("cpr")	
+				)
+	    }
+	    
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+	return null;
+
     }
 
 }
-
-
 ```
 
 
