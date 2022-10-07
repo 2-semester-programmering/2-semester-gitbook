@@ -26,7 +26,7 @@ public class DatabaseConnectionManager {
 
         hostname = "jdbc:mysql://clbodat22v1.mysql.database.azure.com/pokedex";
         username = "clbo";
-        password = "Kea_pass";
+        password = "Keapassword";
         try {
             conn = DriverManager.getConnection(hostname, username, password);
         } catch (SQLException e) {
