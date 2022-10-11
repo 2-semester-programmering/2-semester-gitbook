@@ -2,7 +2,6 @@
 # Læringsmål
 * Forbind en spring boot webapplikation med en mysql database.
 * Læse fra en tabel i databasen og ligge resultatet i en List<> og vise resultatet i browseren vha. @RestController.
-* Lære at brug et singleton design pattern. 
 
 # Materiale
 
@@ -27,11 +26,13 @@ public class DatabaseConnectionManager {
         hostname = "jdbc:mysql://clbodat22v1.mysql.database.azure.com/pokedex";
         username = "clbo";
         password = "Keapassword";
+
         try {
             conn = DriverManager.getConnection(hostname, username, password);
         } catch (SQLException e) {
             e.printStackTrace();
         }
+
         return conn;
     }
 }
