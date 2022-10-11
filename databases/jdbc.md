@@ -119,7 +119,7 @@ Du skal i denne opgave arbejde videre på [MovieWorkshop projektet](https://clbo
 Du kan endte bruge din egen, eller klone [denne version](https://github.com/2-semester-programmering/Ex_movieWorkshop.git) og bruge den som udgangspunkt for denne øvelse. 
 
 ### MySQL Driver dependency
-Cope/paste dette ind i din pom.xml fil.
+Copy/paste dette ind i din pom.xml fil.
 
 ```
         <dependency>
