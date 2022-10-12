@@ -180,6 +180,25 @@ public class ConnectionExample {
 }
 ```
 -->
+## Boilerplate: Create in repository
+
+```
+ public void create(Student student){
+        try {
+            PreparedStatement psts = conn.prepareStatement("INSERT INTO student (name, email, gender) VALUES (?,?,?)");
+            psts.setString(1, student.getName());
+            psts.setString(2, student.getEmail());
+            psts.setBoolean(3, student.isGender());
+            var res = psts.executeUpdate();
+
+            } catch (SQLException ex) {
+                throw new RuntimeException(ex);
+        }
+    }
+
+
+```
+
 
 
 ## Case: FreeMoneyNoScam.dk
