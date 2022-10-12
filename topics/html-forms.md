@@ -29,8 +29,8 @@ Here is an example of a form
 ```html
 <form action="/sign-up" method="POST">
     <label for="name">Name</label>
-  	<input type="text" name="name"/>
-	  <label for="mobile">Name</label>
+    <input type="text" name="name"/>
+    <label for="mobile">Name</label>
     <input type="tel" name="mobile" />
     <input type="checkbox" name="formal-name"/>
 
@@ -67,9 +67,9 @@ Now we have figured out how to send the `POST` request (with data) to the server
 ```java
 @PostMapping("/sign-up")
 public String createNewUser(WebRequest request) {
-  	String username = request.getParameter();
-    String password = request.getParameter();
-    return "success";
+	String username = request.getParameter("user");
+	String password = request.getParameter("pass");
+        return "success";
 }
 ```
 
@@ -86,25 +86,26 @@ Some times we are interested in making the user go to another website than the o
 Using the redirect prefix we can redirect to another page: `redirect:/URL_TO_REDIRECT_TO`
 
 ```java
-// Redirect with prefix redirect
-@GetMapping("redirect-prefix-test-simple")
-public String redirectViewPrefixSimple() {
-    // adding query parameters to the redirected page
-    return new String("redirect:/sign-up");
+
+@GetMapping("/redirect")
+public String redirect() {
+    return "redirect:/sign-up";
 }
 ```
-
+<!--
 Using query parameters
 
 ```java
 // Redirect with prefix redirect
 @GetMapping("redirect-prefix-test")
-public ModelAndView redirectViewprefix(ModelMap model) {
+public ModelAndView redirectViewprefix(Model model) {
     // adding query parameters to the redirected page
     model.addAttribute("name", "Louise");
     return new ModelAndView("redirect:/sign-up", model);
 }
 ```
+-->
+<!-- 
 
 #### Redirect behind the scenes
 
@@ -120,8 +121,8 @@ The server responds: "Just look at the `response header` called `Location`. That
 
 The browser now loads the new url found under the `Location` header!
 
-
-
+-->
+<!--
 ## Post, redirect, get pattern
 
 Good youtube video: https://www.youtube.com/watch?v=DCC7ufuFD2w
@@ -133,21 +134,19 @@ With this new pattern a server receives a request, saves the data (`createProduc
 ```java
 @Controller
 public class PostRedirectGet {
+
     @GetMapping("create-product")
     public String createProductPage() {
         return "create-new-product";
     }
   
     @PostMapping("create-product")
-    public String createProduct(@RequestParam("title") String title, @RequestParam("price") int price, RedirectAttributes attributes) {
-        attributes.addAttribute("title", title);
-        attributes.addAttribute("price", price);
+    public String createProduct(@RequestParam String title, @RequestParam int price) {
 
-        return "redirect:/create-product-success";
+        return "redirect:/";
     }
 
     @GetMapping("create-product-success")
-    @ResponseBody
     public String createProductPageSuccess(@RequestParam String title, @RequestParam int price) {
         return "Created product: " + title + " " + price;
     }
@@ -155,9 +154,9 @@ public class PostRedirectGet {
 ```
 
 Notice how the `POST` parameters are sent to the `create-product-success` using `RedirectAttributes`.
+-->
 
-
-
+<!--
 ## JDBC boilerplate
 
 https://github.com/nicklasdean/jdbc-boilerplate
@@ -180,7 +179,7 @@ public class ConnectionExample {
     }
 }
 ```
-
+-->
 
 
 ## Case: FreeMoneyNoScam.dk
