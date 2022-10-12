@@ -187,7 +187,7 @@ public class ConnectionExample {
 
 We are building a startup together! The startup is called FreeMoneyNoScam.dk
 
-**You can fork this repository: https://github.com/2-semester-programmering/free-money-no-scam** 
+**You can clone this repository: https://github.com/2-semester-programmering/free-money-no-scam** 
 
 The first objective from our startup is collecting as many valid mail-addresses as possible and saving them in a database (for very legal and ethical purposes). 
 
