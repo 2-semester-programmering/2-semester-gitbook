@@ -11,7 +11,7 @@ Sending data to a server is essential for interacting with a website user. Creat
 
 ## HTML Forms
 
-HTML forms is used for sending data to the server. it comes from physical forms like these:
+HTML forms is used for sending data to the server. It comes from physical forms like these:
 
 [![Physical form](html-forms.assets/physical-forms.png)](https://github.com/behu-kea/dat20-classes/blob/master/HTML Forms/assets/physical-forms.png)
 
@@ -187,7 +187,7 @@ public class ConnectionExample {
 
 We are building a startup together! The startup is called FreeMoneyNoScam.dk
 
-**You can fork this repository: https://github.com/nicklasdean/free-money-no-scam.git**
+**You can fork this repository: https://github.com/2-semester-programmering/free-money-no-scam** 
 
 The first objective from our startup is collecting as many valid mail-addresses as possible and saving them in a database (for very legal and ethical purposes). 
 
