@@ -116,7 +116,7 @@ I dette eksempel SELECTES der en studerende baseret på det id der kommer med so
 
 ## Movie Workshop, (nu med Database)
 
-[Løsningsforslag]()    
+[Løsningsforslag](https://github.com/2-semester-programmering/ex_movie_workshop_db)    
 
 Du skal i denne opgave arbejde videre på [MovieWorkshop projektet](https://clbo.gitbook.io/2_semester_kompendie/spring-introduction-2/ex-movie-facts-workshop). 
 Du kan endte bruge din egen, eller klone [denne version](https://github.com/2-semester-programmering/Ex_movieWorkshop.git) og bruge den som udgangspunkt for denne øvelse. 
