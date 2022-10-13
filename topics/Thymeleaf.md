@@ -1,6 +1,8 @@
 # Thymeleaf
 
-**Example Github repository:** [https://github.com/2-semester-programmering/Tweater](https://github.com/2-semester-programmering/Tweater)
+<!-- **Example Github repository:** [https://github.com/2-semester-programmering/Tweater](https://github.com/2-semester-programmering/Tweater)
+
+-->
 
 ### Overview
 
