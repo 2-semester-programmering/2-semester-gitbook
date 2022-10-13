@@ -209,9 +209,10 @@ https://www.baeldung.com/spring-thymeleaf-fragments
   * The method returns a list of 4 e-mails
 * Refactor the template such that all e-mails are displayed
 
+<!--
 ## Advanced (Optional)
 
 Write an application that:
 
 * Fetches news from an XML stream from a mainstream news-outlet. (This could be BT, Ekstra Bladet, Politiken etc.)
-* Displays the news from a mainstream news-outlet.
+* Displays the news from a mainstream news-outlet. -->
