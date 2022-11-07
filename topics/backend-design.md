@@ -4,8 +4,6 @@ Boilerplate:
 
 {% embed url="https://github.com/2-semester-programmering/spring-jdbc" %}
 
-**Data:** [Broken link](broken-reference "mention")****
-
 ## **Learning objectives**
 
 * Retrieving data with the JDBC API designed as a Singleton
@@ -15,8 +13,6 @@ Boilerplate:
   * Implement CRUD interface with generics
 
 ## Exercises
-
-
 
 ### 1. View all employees
 
@@ -58,6 +54,7 @@ A new view with an input form, such that users can post new data & send to datab
 
 A new repository method for querying an insert statement with data from POST form
 
+<!--
 ## Advanced: Building a Pokedex
 
 The data can be found here:
@@ -87,3 +84,4 @@ pokedex.sql
   * What are the average hp for (primary) grass types?
   * How many fire pokemon has higher hp than the average pokemon?
   * What primary type are the fastest?
+-->
