@@ -21,7 +21,6 @@
 * [HTML Forms](topics/html-forms.md)
 * [Thymeleaf](topics/Thymeleaf.md)
 * [Backend Design](topics/backend-design.md)
-* [Unit tests](topics/Unit-test.md)
 * [Sessions](topics/sessions.md)
 * [Exercise Solutions](https://github.com/2-semester-programmering?q=solution\&type=all\&language=\&sort=)
 * [Github repo](https://github.com/2-semester-programmering/)
