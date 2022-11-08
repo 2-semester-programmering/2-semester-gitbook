@@ -44,7 +44,10 @@ public class DatabaseConnectionManager {
 }
 
 ```
+## Interfaces
+Clone this repository (this is the basis of the demo in class)
 
+{% embed url="https://github.com/2-semester-programmering/interface_repository_example" %}
 
 ## Exercises
 
