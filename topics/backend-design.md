@@ -49,6 +49,12 @@ Clone this repository (this is the basis of the demo in class)
 
 {% embed url="https://github.com/2-semester-programmering/interface_repository_example" %}
 
+## Evironment Variables
+
+* [Environment Variables in IntelliJ](https://www.jetbrains.com/help/objc/add-environment-variables-and-program-arguments.html#add-environment-variables)
+
+
+
 ## Exercises
 
 Boilerplate:
