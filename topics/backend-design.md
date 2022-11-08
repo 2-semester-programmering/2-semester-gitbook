@@ -1,18 +1,56 @@
 # Backend Design
 
-Boilerplate:
-
-{% embed url="https://github.com/2-semester-programmering/spring-jdbc" %}
 
 ## **Learning objectives**
 
 * Retrieving data with the JDBC API designed as a Singleton
-* Building GRASP & DRY compliant repositories
-* Storing username & passwords in seperate files
-* (Advanced)
-  * Implement CRUD interface with generics
+* Building repositories based on interfaces
+* Storing username & passwords in environment variables
+* Implement CRUD interface with generics (Advanced)
+
+## Singleton pattern
+
+```
+public class DatabaseConnectionManager {
+    private static String hostname;
+    private static String username;
+    private static String password;
+    private static Connection conn;
+
+    private DatabaseConnectionManager(){} 	// private contructor to prevent 
+						// creating an object of the class
+
+    public static Connection getConnection(){	// a static method
+        
+	if(conn != null){			// check if conn is already set (open)
+            return conn;			// if it is return the already set one
+        }
+
+
+	// if conn does not exist create a new one and return that
+
+        hostname = "jdbc:mysql://clbodat22v1.mysql.database.azure.com/imdb";
+        username = "clbo";
+        password = "xxx";
+
+        try {
+            conn = DriverManager.getConnection(hostname, username, password);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return conn;
+    }
+}
+
+```
+
 
 ## Exercises
+
+Boilerplate:
+
+{% embed url="https://github.com/2-semester-programmering/spring-jdbc" %}
 
 ### 1. View all employees
 
