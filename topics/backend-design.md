@@ -3,10 +3,12 @@
 
 ## **Learning objectives**
 
+* Know how do MVC and Spring Boot relate
 * Retrieving data with the JDBC API designed as a Singleton
 * Building repositories based on interfaces
 * Storing username & passwords in environment variables
 * Implement CRUD interface with generics (Advanced)
+
 
 ## Singleton pattern
 
@@ -49,7 +51,33 @@ Clone this repository (this is the basis of the demo in class)
 
 {% embed url="https://github.com/2-semester-programmering/interface_repository_example" %}
 
+In this demo we will cover:
+
+* Interfaces and repository
+* Generic typed interfaces 
+
+
 ## Evironment Variables
+So far we have hard coded the database credentials into the DatabaseConnectionManager class. 
+
+```
+hostname = "jdbc:mysql://clbodat22v1.mysql.database.azure.com/imdb";
+username = "clbo";
+password = "xxx";
+```
+This is problematic because it will be visible to everybody who uses our code, and it will be visible to everybody who clones our repository from github.
+
+We will instead save these credentials in a seperate file which will not be part of our project and therefore not pushed to github. Username and password will stay on our local computer, and if someone else wants to use our code (ei. another group member), they should also save the credetials on their local computer. 
+
+We will change the code above to this:
+
+```
+hostname = System.getenv("db.url");
+username = System.getenv("db.username");
+password = System.getenv("db.password");
+
+```
+Where db.url, db.username, db.password are variable names (environment varibles). These environment variables can be set up the same way as described in the article beneath. 
 
 * [Environment Variables in IntelliJ](https://www.jetbrains.com/help/objc/add-environment-variables-and-program-arguments.html#add-environment-variables)
 
