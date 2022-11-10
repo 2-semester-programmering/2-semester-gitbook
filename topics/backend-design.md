@@ -101,7 +101,7 @@ A new model for modelling Employee data
 
 A new view for displaying all employees
 
-A new repository for querying the employee database
+A new repository for querying the employee database (the repository should implement an Interface)
 
 ### 2. View single employee
 
@@ -111,11 +111,11 @@ The users want a feature, such that they can see a single employee by their empl
 
 A new controller & GetMapping with request parameter:
 
-https://www.baeldung.com/spring-request-param
+[request parameters](https://www.baeldung.com/spring-request-param)
 
 A new view for displaying a single employee
 
-A new repository method for querying a single employee by their parameter
+A new repository method for querying a single employee by their parameter (remember the Interface!)
 
 ### 3. Create new employe
 
@@ -127,7 +127,7 @@ A new controller & PostMapping
 
 A new view with an input form, such that users can post new data & send to database
 
-A new repository method for querying an insert statement with data from POST form
+A new repository method for querying an insert statement with data from POST form (Interface!!)
 
 <!--
 ## Advanced: Building a Pokedex

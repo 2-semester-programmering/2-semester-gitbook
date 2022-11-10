@@ -2,7 +2,7 @@
 
 # Sessions
 
-**Case**: https://github.com/nicklasdean/cookie-shop
+**Case**: [https://github.com/2-semester-programmering/cookie-shop](https://github.com/2-semester-programmering/cookie-shop)
 
 - What is a session and why do we use it?
 - Implementing session for spring boot
