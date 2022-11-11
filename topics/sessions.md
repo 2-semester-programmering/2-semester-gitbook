@@ -81,7 +81,6 @@ Anything you would like! `String`, `Integer`, `ArrayList`, some class it does no
 
 ```java
 @GetMapping("/set-users")
-@ResponseBody
 public String setSession(HttpServletRequest request) {
     HttpSession session = request.getSession();
     ArrayList<User> users = new ArrayList<>();
@@ -91,16 +90,17 @@ public String setSession(HttpServletRequest request) {
     users.add(user2);
     session.setAttribute("users", users);
 
-    return "two users saved in the session";
+    return "index"
 }
 
 @GetMapping("/get-session")
-@ResponseBody
 public String getSession(HttpServletRequest request) {
   HttpSession session = request.getSession();
   List<User> users = (List<User>) session.getAttribute("users");
 
-  return username.get(0).name;
+	// username.get(0).name;
+
+  return "index"
 }
 ```
 
