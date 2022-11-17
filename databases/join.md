@@ -1,6 +1,12 @@
+## Øvelse fra sidste gang
+[Løsning fra sidste gang](https://github.com/2-semester-programmering/cookie-shop/tree/exercises)
+
+## SQL JOIN
+Der findes flere typer af sql joins (inner, left, right etc.) vi vil fokusere på inner join, da det primært af denne i kommer til at bruge. Det er også den i forventes af kunne bruge eller forklare i jeres eksamensprojekt.
 
 ## Læringsmål
 * Forstå og arbejde med Primary/Foreign key relationer
+* Lave sql statements med inner join
 * Modelér en mange til mange relation
 * Modelér en en til mange relation
 
@@ -58,5 +64,3 @@ SELECTS
 ```
 SELECT * FROM customer INNER JOIN orders on customer.custId = orders.custId WHERE customer.custId = 1;
 ```
-
-## Øvelser
